@@ -386,7 +386,7 @@ public class KThread {
 	    this.which = which;
 	}
 	
-	public void run() {
+	public void run() { //this one
 	    for (int i=0; i<5; i++) {
 		System.out.println("*** Hello, sweet thread " + which + " looped "
 				   + i + " times");
